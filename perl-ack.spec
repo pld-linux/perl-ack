@@ -5,7 +5,6 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	ack
 Summary:	grep-like text finder
-#Summary(pl.UTF-8):
 Name:		perl-ack
 Version:	1.90
 Release:	1
