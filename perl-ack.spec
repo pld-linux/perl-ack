@@ -6,13 +6,13 @@
 %define	pdir	ack
 Summary:	grep-like text finder
 Name:		perl-ack
-Version:	1.90
+Version:	1.92
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/P/PE/PETDANCE/ack-%{version}.tar.gz
-# Source0-md5:	94d2790e5e3c74561ca0cd465a494db6
+# Source0-md5:	c25b5a16d0a27386a75c91d531b86cea
 URL:		http://betterthangrep.com/
 BuildRequires:	perl-File-Next
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -62,4 +62,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/ack
 %{perl_vendorlib}/App/Ack.pm
 %{perl_vendorlib}/App/Ack
-%{_mandir}/man3/*
+%{_mandir}/man1/*
