@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-authors/id/P/PE/PETDANCE/ack-%{version}.
 URL:		http://betterthangrep.com/
 BuildRequires:	perl-File-Next
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-perldoc
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Test-Pod
